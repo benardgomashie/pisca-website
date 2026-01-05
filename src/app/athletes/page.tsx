@@ -4,8 +4,15 @@ export default function AthletesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <img 
+            src="https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?w=1920&h=600&fit=crop" 
+            alt="Athletes"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <Trophy className="w-16 h-16 mx-auto mb-6" />
           <h1 className="font-montserrat text-4xl md:text-5xl font-bold mb-4">Our Athletes</h1>
           <p className="text-xl">Building Our Roster of Champions</p>

@@ -6,6 +6,15 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 via-blue-700 to-blue-600 text-white py-24 md:py-40 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 opacity-20">
+          <img 
+            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1920&h=1080&fit=crop" 
+            alt="Sports background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-700/80 to-blue-600/80"></div>
+        </div>
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full filter blur-3xl"></div>
@@ -80,7 +89,15 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-2xl shadow-elegant text-white">
+            <div className="relative bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-2xl shadow-elegant text-white overflow-hidden">
+              <div className="absolute inset-0 opacity-10">
+                <img 
+                  src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&h=600&fit=crop" 
+                  alt="Trophy"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="relative z-10">
               <div className="flex items-center gap-3 mb-4">
                 <div className="bg-white/20 p-3 rounded-lg">
                   <Trophy className="w-6 h-6" />
@@ -91,6 +108,7 @@ export default function Home() {
                 To empower athletes and brands through strategic partnerships, innovative marketing, 
                 and unforgettable experiences—building long-term success based on trust and excellence.
               </p>
+              </div>
             </div>
           </div>
         </div>
@@ -113,7 +131,11 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-8">
             {/* Service 1 */}
-            <div className="group bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+            <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
+                <img src="https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
+              </div>
+              <div className="relative z-10">
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
                 <Trophy className="w-8 h-8 text-white" />
               </div>
@@ -131,10 +153,15 @@ export default function Home() {
                 Learn More 
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </Link>
+              </div>
             </div>
 
             {/* Service 2 */}
-            <div className="group bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+            <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
+                <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
+              </div>
+              <div className="relative z-10">
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
                 <Target className="w-8 h-8 text-white" />
               </div>
@@ -152,10 +179,15 @@ export default function Home() {
                 Learn More 
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </Link>
+              </div>
             </div>
 
             {/* Service 3 */}
-            <div className="group bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+            <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
+                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
+              </div>
+              <div className="relative z-10">
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
                 <Briefcase className="w-8 h-8 text-white" />
               </div>
@@ -173,6 +205,7 @@ export default function Home() {
                 Learn More 
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </Link>
+              </div>
             </div>
           </div>
         </div>

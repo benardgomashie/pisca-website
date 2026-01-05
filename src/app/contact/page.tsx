@@ -38,9 +38,19 @@ export default function ContactPage() {
     <div className="min-h-screen bg-gray-50 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="font-montserrat text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-          <p className="text-xl text-gray-600">Let's Start a Conversation</p>
+        <div className="relative text-center mb-12 py-12 rounded-2xl overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 opacity-90"></div>
+          <div className="absolute inset-0 opacity-10">
+            <img 
+              src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&h=400&fit=crop" 
+              alt="Contact"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="relative z-10 text-white">
+            <h1 className="font-montserrat text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+            <p className="text-xl">Let&apos;s Start a Conversation</p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
