@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pisca Sports Management & Agency Website
 
-## Getting Started
+A modern, SEO-optimized website built with Next.js 14+ for Pisca Sports Management & Agency.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- **Next.js 14+** - React framework with App Router
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first styling
+- **React Hook Form** - Form handling
+- **Lucide React** - Icons
+- **Vercel** - Hosting & deployment
+
+## 📦 Features
+
+- ✅ Server-side rendering for excellent SEO
+- ✅ Responsive design (mobile-first)
+- ✅ Fast page loads with Next.js optimization
+- ✅ Contact form with validation
+- ✅ Modern UI with smooth animations
+- ✅ Optimized fonts (Inter & Montserrat)
+
+## 🛠️ Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📄 Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Homepage** - Hero, services overview, benefits, CTAs
+- **About** - Mission, values, team approach
+- **Services** - Athlete representation, event management, sports marketing
+- **Athletes** - Roster information and opportunities
+- **Events** - Event portfolio and capabilities
+- **Contact** - Contact form and information
 
-## Learn More
+## 🚀 Deployment on Vercel (FREE)
 
-To learn more about Next.js, take a look at the following resources:
+1. **Push to GitHub:**
+   ```bash
+   # Create a new repository on GitHub, then:
+   git remote add origin https://github.com/YOUR_USERNAME/pisca-website.git
+   git branch -M main
+   git push -u origin main
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Deploy on Vercel:**
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import your GitHub repository
+   - Click "Deploy" (all settings auto-detected)
+   - Your site will be live in ~2 minutes!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Custom Domain (Optional):**
+   - In Vercel dashboard, go to Settings → Domains
+   - Add www.piscasports.com
+   - Update DNS records as instructed
 
-## Deploy on Vercel
+## 📝 To-Do
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Add placeholder images from Unsplash
+- [ ] Connect EmailJS/Resend for contact form
+- [ ] Create service detail pages
+- [ ] Add FAQ page
+- [ ] Add blog functionality
+- [ ] Configure custom domain
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📧 Contact
+
+- **Website:** www.piscasports.com (coming soon)
+- **Email:** info@piscasports.com
+- **Athletes:** athletes@piscasports.com
+- **Events:** events@piscasports.com
+
+## 📄 License
+
+© 2024 Pisca Sports Management & Agency. All rights reserved.
