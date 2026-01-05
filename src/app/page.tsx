@@ -177,14 +177,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-              </p>
-              <Link href="/services/sports-marketing" className="text-blue-700 font-semibold hover:underline inline-flex items-center">
-                Learn More →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Why Pisca Section */}
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
