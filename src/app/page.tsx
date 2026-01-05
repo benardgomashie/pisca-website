@@ -317,34 +317,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-          <div className="grid md:grid-cols-2 gap-8 mt-12">
-            <div className="bg-blue-800 p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4">For Athletes</h3>
-              <p className="mb-6 text-blue-100">
-                Join our growing roster and access opportunities that accelerate your career.
-              </p>
-              <Link 
-                href="/contact"
-                className="inline-block bg-white text-blue-700 px-6 py-3 rounded-md font-semibold hover:bg-blue-50 transition"
-              >
-                Apply for Representation
-              </Link>
-            </div>
-            <div className="bg-blue-800 p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4">For Brands & Organizations</h3>
-              <p className="mb-6 text-blue-100">
-                Partner with Pisca to connect with Africa's passionate sports community.
-              </p>
-              <Link 
-                href="/contact"
-                className="inline-block bg-white text-blue-700 px-6 py-3 rounded-md font-semibold hover:bg-blue-50 transition"
-              >
-                Start a Conversation
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   )
 }
