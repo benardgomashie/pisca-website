@@ -5,7 +5,7 @@ export default function AthleteRepresentationPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
+      <div className="relative -mt-16 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
             src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1920&h=600&fit=crop" 

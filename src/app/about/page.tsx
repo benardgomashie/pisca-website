@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
+      <div className="relative -mt-16 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
             src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1920&h=600&fit=crop" 

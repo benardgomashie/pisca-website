@@ -35,7 +35,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-16">
+    <div className="min-h-screen bg-gray-50 py-16 -mt-16 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="relative text-center mb-12 py-12 rounded-2xl overflow-hidden">
