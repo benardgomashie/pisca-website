@@ -23,7 +23,8 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 pt-16">
           <div className="inline-flex items-center gap-2 bg-black/40 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-white/20">
-            <Sparkles className="w-4 h-4" />
+            
+            {/* <Sparkles className="w-4 h-4" /> */}
             <span className="text-sm font-semibold drop-shadow-lg">Empowering African Sports Excellence</span>
           </div>
           
