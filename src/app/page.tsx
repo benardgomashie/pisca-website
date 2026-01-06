@@ -5,43 +5,43 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-700 to-blue-600 text-white py-24 md:py-40 overflow-hidden">
+      <section className="relative bg-black text-white py-24 md:py-40 overflow-hidden">
         {/* Background Image */}
-        <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 opacity-70">
           <img 
             src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1920&h=1080&fit=crop" 
             alt="Sports background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-700/80 to-blue-600/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/30 via-transparent to-gray-900/40"></div>
         </div>
         {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-5">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full filter blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-300 rounded-full filter blur-3xl"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-white/20">
+          <div className="inline-flex items-center gap-2 bg-black/40 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-white/20">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-semibold">Empowering African Sports Excellence</span>
+            <span className="text-sm font-semibold drop-shadow-lg">Empowering African Sports Excellence</span>
           </div>
           
-          <h1 className="font-montserrat text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="font-montserrat text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">
             UNLEASHING
             <span className="block mt-2 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
               POTENTIAL
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-4 font-semibold max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl mb-4 font-semibold max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
             Professional sports management, world-class events, and strategic partnerships 
             that elevate careers and build legacies
           </p>
           
-          <p className="text-lg mb-10 max-w-2xl mx-auto text-blue-100">
+          <p className="text-lg mb-10 max-w-2xl mx-auto text-gray-100 drop-shadow-lg">
             We represent athletes, manage premier sports events, and create authentic brand 
-            connections across Africa's dynamic sports landscape
+            connections across Africa&apos;s dynamic sports landscape
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -317,9 +317,9 @@ export default function Home() {
                 <Trophy className="w-8 h-8" />
               </div>
               <h3 className="font-montserrat text-2xl font-bold mb-4">Athletes & Talent</h3>
-              <p className="text-blue-100 mb-6 leading-relaxed">
+              <p className="text-white/90 mb-6 leading-relaxed">
                 Looking for professional representation to take your career to the next level? 
-                Let's discuss how we can help you achieve your goals.
+                Let&apos;s discuss how we can help you achieve your goals.
               </p>
               <Link 
                 href="/athletes" 
@@ -335,9 +335,9 @@ export default function Home() {
                 <Briefcase className="w-8 h-8" />
               </div>
               <h3 className="font-montserrat text-2xl font-bold mb-4">Brands & Organizations</h3>
-              <p className="text-blue-100 mb-6 leading-relaxed">
-                Ready to connect with Africa's sports community through authentic partnerships 
-                and impactful campaigns? Let's create something amazing together.
+              <p className="text-white/90 mb-6 leading-relaxed">
+                Ready to connect with Africa&apos;s sports community through authentic partnerships 
+                and impactful campaigns? Let&apos;s create something amazing together.
               </p>
               <Link 
                 href="/contact" 

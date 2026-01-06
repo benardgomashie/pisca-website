@@ -40,12 +40,12 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="text-gray-400 hover:text-green-400 transition">Home</Link></li>
-              <li><Link href="/about" className="text-gray-400 hover:text-green-400 transition">About Us</Link></li>
-              <li><Link href="/athletes" className="text-gray-400 hover:text-green-400 transition">Athletes</Link></li>
-              <li><Link href="/events" className="text-gray-400 hover:text-green-400 transition">Events</Link></li>
-              <li><Link href="/insights" className="text-gray-400 hover:text-green-400 transition">Insights</Link></li>
-              <li><Link href="/faq" className="text-gray-400 hover:text-green-400 transition">FAQ</Link></li>
+              <li><Link href="/" className="text-gray-300 hover:text-green-400 transition">Home</Link></li>
+              <li><Link href="/about" className="text-gray-300 hover:text-green-400 transition">About Us</Link></li>
+              <li><Link href="/athletes" className="text-gray-300 hover:text-green-400 transition">Athletes</Link></li>
+              <li><Link href="/events" className="text-gray-300 hover:text-green-400 transition">Events</Link></li>
+              <li><Link href="/insights" className="text-gray-300 hover:text-green-400 transition">Insights</Link></li>
+              <li><Link href="/faq" className="text-gray-300 hover:text-green-400 transition">FAQ</Link></li>
             </ul>
           </div>
 
@@ -53,16 +53,16 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/services/athlete-representation" className="text-gray-400 hover:text-green-400 transition">Athlete Representation</Link></li>
-              <li><Link href="/services/event-management" className="text-gray-400 hover:text-green-400 transition">Event Management</Link></li>
-              <li><Link href="/services/sports-marketing" className="text-gray-400 hover:text-green-400 transition">Sports Marketing</Link></li>
+              <li><Link href="/services/athlete-representation" className="text-gray-300 hover:text-green-400 transition">Athlete Representation</Link></li>
+              <li><Link href="/services/event-management" className="text-gray-300 hover:text-green-400 transition">Event Management</Link></li>
+              <li><Link href="/services/sports-marketing" className="text-gray-300 hover:text-green-400 transition">Sports Marketing</Link></li>
             </ul>
           </div>
 
           {/* Column 4: Contact */}
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
-            <ul className="space-y-3 text-sm text-gray-400">
+            <ul className="space-y-3 text-sm text-gray-300">
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <a href="mailto:info@piscasports.com" className="hover:text-green-400 transition">
@@ -80,15 +80,15 @@ export default function Footer() {
             </ul>
             <div className="mt-4 text-sm">
               <p className="font-semibold mb-2">Specialized Contacts:</p>
-              <p className="text-gray-400 text-xs">athletes@piscasports.com</p>
-              <p className="text-gray-400 text-xs">events@piscasports.com</p>
-              <p className="text-gray-400 text-xs">partnerships@piscasports.com</p>
+              <p className="text-gray-300 text-xs">athletes@piscasports.com</p>
+              <p className="text-gray-300 text-xs">events@piscasports.com</p>
+              <p className="text-gray-300 text-xs">partnerships@piscasports.com</p>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-300">
           <p>© 2026 Pisca Sports Management & Agency. All rights reserved.</p>
           <div className="mt-2 space-x-4">
             <Link href="/privacy" className="hover:text-green-400 transition">Privacy Policy</Link>
