@@ -34,7 +34,7 @@ export default function AthleteRepresentationPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Overview */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-6">What We Offer</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-gray-900">What We Offer</h2>
           <p className="text-lg text-gray-700 mb-8">
             As your dedicated representative, we handle the business side of your career so you can 
             focus on what you do best—performing at the highest level. We provide comprehensive support 
@@ -101,7 +101,7 @@ export default function AthleteRepresentationPage() {
         {/* Our Approach */}
         <section className="mb-16 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12">
           <div className="max-w-7xl mx-auto">
-            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Our Representation Approach</h2>
+            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Our Representation Approach</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">
@@ -148,7 +148,7 @@ export default function AthleteRepresentationPage() {
 
         {/* What Sets Us Apart */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8">Why Athletes Choose Pisca</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-gray-900">Why Athletes Choose Pisca</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <div className="flex items-start gap-3 mb-6">
@@ -247,7 +247,7 @@ export default function AthleteRepresentationPage() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-lg p-12 text-center">
-          <h2 className="font-montserrat text-3xl font-bold mb-4">Ready to Take Your Career Further?</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-4 text-gray-900">Ready to Take Your Career Further?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Let's discuss how we can help you achieve your athletic and professional goals.
           </p>

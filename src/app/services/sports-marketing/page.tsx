@@ -34,7 +34,7 @@ export default function SportsMarketingPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Overview */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-6">What We Offer</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-gray-900">What We Offer</h2>
           <p className="text-lg text-gray-700 mb-8">
             In today's competitive marketplace, sports provide a powerful platform for brands to connect 
             with passionate audiences. We help brands leverage the emotion, excitement, and authenticity 
@@ -101,7 +101,7 @@ export default function SportsMarketingPage() {
         {/* Our Approach */}
         <section className="mb-16 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12">
           <div className="max-w-7xl mx-auto">
-            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Our Marketing Approach</h2>
+            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Our Marketing Approach</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                 <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">
@@ -148,7 +148,7 @@ export default function SportsMarketingPage() {
 
         {/* Services Breakdown */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8">Comprehensive Marketing Services</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-gray-900">Comprehensive Marketing Services</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="font-bold text-xl mb-4 text-blue-700">For Brands</h3>
@@ -222,7 +222,7 @@ export default function SportsMarketingPage() {
 
         {/* Why Choose Us */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8">Why Choose Pisca for Sports Marketing?</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-gray-900">Why Choose Pisca for Sports Marketing?</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="border-2 border-blue-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3 text-blue-700">Authentic Connections</h3>
@@ -305,7 +305,7 @@ export default function SportsMarketingPage() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-lg p-12 text-center">
-          <h2 className="font-montserrat text-3xl font-bold mb-4">Ready to Elevate Your Sports Marketing?</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-4 text-gray-900">Ready to Elevate Your Sports Marketing?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Let's discuss how we can help your brand connect with sports audiences and achieve 
             your marketing goals.

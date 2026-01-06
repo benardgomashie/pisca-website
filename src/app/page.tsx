@@ -132,7 +132,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Service 1 */}
             <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-30 group-hover:opacity-40 transition-opacity">
                 <img src="https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
               </div>
               <div className="relative z-10">
@@ -158,7 +158,7 @@ export default function Home() {
 
             {/* Service 2 */}
             <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-30 group-hover:opacity-40 transition-opacity">
                 <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
               </div>
               <div className="relative z-10">
@@ -184,7 +184,7 @@ export default function Home() {
 
             {/* Service 3 */}
             <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-30 group-hover:opacity-40 transition-opacity">
                 <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
               </div>
               <div className="relative z-10">

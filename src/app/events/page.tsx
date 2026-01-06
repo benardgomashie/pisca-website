@@ -22,7 +22,7 @@ export default function EventsPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Introduction */}
         <section className="mb-16 text-center max-w-3xl mx-auto">
-          <h2 className="font-montserrat text-3xl font-bold mb-6">Building Something Special</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-gray-900">Building Something Special</h2>
           <p className="text-lg text-gray-700 mb-4">
             We're not here to show you a portfolio of past mega-events. Instead, we're focused on 
             creating the next generation of sports experiences—starting fresh with innovative ideas 
@@ -36,7 +36,7 @@ export default function EventsPage() {
 
         {/* Event Services */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">What We Do</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">What We Do</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-blue-50 p-6 rounded-lg">
               <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
@@ -83,7 +83,7 @@ export default function EventsPage() {
         {/* Our Event Management Process */}
         <section className="mb-16 bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12">
           <div className="max-w-7xl mx-auto">
-            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Our Process</h2>
+            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Our Process</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <div className="bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold mb-4">
@@ -130,7 +130,7 @@ export default function EventsPage() {
 
         {/* Event Capabilities */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">What We Handle</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">What We Handle</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div>
               <h3 className="font-bold text-xl mb-4 text-blue-700">Logistics & Operations</h3>
@@ -160,7 +160,7 @@ export default function EventsPage() {
 
         {/* Why Choose Us */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Why Work With Pisca?</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Why Work With Pisca?</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="border-2 border-blue-200 p-6 rounded-lg">
               <h3 className="font-bold text-lg mb-3 text-blue-700">Fresh Perspectives</h3>
@@ -210,7 +210,7 @@ export default function EventsPage() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-lg p-12 text-center">
-          <h2 className="font-montserrat text-3xl font-bold mb-4">Let's Create Something Amazing</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-4 text-gray-900">Let's Create Something Amazing</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Have an event idea? Whether it's fully formed or just a concept, we'd love to discuss how 
             we can bring it to life.

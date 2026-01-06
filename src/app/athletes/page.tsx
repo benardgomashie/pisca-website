@@ -22,7 +22,7 @@ export default function AthletesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Introduction */}
         <section className="mb-16 text-center max-w-3xl mx-auto">
-          <h2 className="font-montserrat text-3xl font-bold mb-6">The Future Starts Here</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-gray-900">The Future Starts Here</h2>
           <p className="text-lg text-gray-700 mb-4">
             As a dynamic new agency, we're actively building relationships with talented athletes 
             who are ready to take their careers to the next level. We're not showcasing a long list 
@@ -36,13 +36,13 @@ export default function AthletesPage() {
 
         {/* What We Offer */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">What We Offer Athletes</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">What We Offer Athletes</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-8 rounded-lg">
               <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mb-4">
                 <UserPlus className="w-7 h-7 text-blue-700" />
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Personal Representation</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Personal Representation</h3>
               <ul className="space-y-2 text-gray-700">
                 <li>• Contract negotiation</li>
                 <li>• Career planning & guidance</li>
@@ -55,7 +55,7 @@ export default function AthletesPage() {
               <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mb-4">
                 <Sparkles className="w-7 h-7 text-blue-700" />
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Brand Building</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Brand Building</h3>
               <ul className="space-y-2 text-gray-700">
                 <li>• Personal brand development</li>
                 <li>• Social media strategy</li>
@@ -68,7 +68,7 @@ export default function AthletesPage() {
               <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mb-4">
                 <Trophy className="w-7 h-7 text-blue-700" />
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Opportunities</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Opportunities</h3>
               <ul className="space-y-2 text-gray-700">
                 <li>• Endorsement deals</li>
                 <li>• Sponsorship opportunities</li>
@@ -82,7 +82,7 @@ export default function AthletesPage() {
         {/* Why Choose Pisca */}
         <section className="bg-blue-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12 mb-16">
           <div className="max-w-7xl mx-auto">
-            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Why Partner With Pisca?</h2>
+            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Why Partner With Pisca?</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-semibold text-lg mb-3 text-blue-700">Personalized Attention</h3>
@@ -118,7 +118,7 @@ export default function AthletesPage() {
 
         {/* Ideal Athletes */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-6 text-center">Athletes We're Looking For</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-center text-gray-900">Athletes We're Looking For</h2>
           <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
             We're seeking dedicated athletes who are:
           </p>
@@ -144,7 +144,7 @@ export default function AthletesPage() {
 
         {/* Sports We Cover */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-6 text-center">Sports We Represent</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-center text-gray-900">Sports We Represent</h2>
           <div className="max-w-3xl mx-auto bg-gray-50 p-8 rounded-lg">
             <p className="text-center text-gray-700 mb-6">
               While we're open to working with talented athletes across various sports, we're particularly 
@@ -163,7 +163,7 @@ export default function AthletesPage() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-lg p-12 text-center">
-          <h2 className="font-montserrat text-3xl font-bold mb-4">Ready to Join Our Team?</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-4 text-gray-900">Ready to Join Our Team?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             If you're an athlete looking for representation that matches your ambition, 
             we'd love to hear from you.

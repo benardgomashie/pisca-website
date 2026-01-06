@@ -113,7 +113,7 @@ export default function ServicesPage() {
         {/* Why Choose Our Services */}
         <section className="bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12 mb-16">
           <div className="max-w-7xl mx-auto">
-            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Why Choose Pisca?</h2>
+            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Why Choose Pisca?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-bold mb-2">Personalized Approach</h3>
@@ -145,7 +145,7 @@ export default function ServicesPage() {
 
         {/* How We Work */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Our Process</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Our Process</h2>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="text-center">
               <div className="bg-blue-700 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
@@ -188,7 +188,7 @@ export default function ServicesPage() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-lg p-12 text-center">
-          <h2 className="font-montserrat text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-4 text-gray-900">Ready to Get Started?</h2>
           <p className="text-xl mb-8">
             Let's discuss how our services can help you achieve your goals.
           </p>

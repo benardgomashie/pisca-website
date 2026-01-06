@@ -21,7 +21,7 @@ export default function AboutPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Our Story */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-6">Our Story</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-gray-900">Our Story</h2>
           <div className="prose max-w-none text-gray-700 space-y-4">
             <p className="text-lg">
               Pisca Sports Management & Agency is a dynamic startup dedicated to revolutionizing 
@@ -71,13 +71,13 @@ export default function AboutPage() {
 
         {/* Core Values */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">Our Core Values</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Our Core Values</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-blue-700" />
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">People First</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">People First</h3>
               <p className="text-gray-600">
                 Every decision starts with understanding the needs of our clients. We're building 
                 relationships, not just contracts.
@@ -88,7 +88,7 @@ export default function AboutPage() {
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Target className="w-8 h-8 text-blue-700" />
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Innovation</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Innovation</h3>
               <p className="text-gray-600">
                 As a startup, we're not bound by "how it's always been done." We embrace fresh 
                 ideas and modern strategies.
@@ -99,7 +99,7 @@ export default function AboutPage() {
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Trophy className="w-8 h-8 text-blue-700" />
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Excellence</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Excellence</h3>
               <p className="text-gray-600">
                 We may be new, but we're committed to delivering professional, high-quality service 
                 that exceeds expectations.
@@ -111,7 +111,7 @@ export default function AboutPage() {
         {/* What Makes Us Different */}
         <section className="bg-gray-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12 mb-16">
           <div className="max-w-7xl mx-auto">
-            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center">What Makes Us Different</h2>
+            <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">What Makes Us Different</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-semibold text-lg mb-2">Personalized Attention</h3>
@@ -147,13 +147,13 @@ export default function AboutPage() {
 
         {/* Our Approach */}
         <section className="mb-16">
-          <h2 className="font-montserrat text-3xl font-bold mb-6">Our Approach</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-gray-900">Our Approach</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mb-4">
                 1
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Listen</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Listen</h3>
               <p className="text-gray-600">
                 We start by understanding your goals, challenges, and vision. Every client is unique, 
                 and so is every strategy we create.
@@ -163,7 +163,7 @@ export default function AboutPage() {
               <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mb-4">
                 2
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Strategize</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Strategize</h3>
               <p className="text-gray-600">
                 We develop customized plans that align with your objectives, leveraging our expertise 
                 and industry insights.
@@ -173,7 +173,7 @@ export default function AboutPage() {
               <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mb-4">
                 3
               </div>
-              <h3 className="font-montserrat text-xl font-bold mb-3">Execute</h3>
+              <h3 className="font-montserrat text-xl font-bold mb-3 text-gray-900">Execute</h3>
               <p className="text-gray-600">
                 We implement with precision and passion, keeping you informed and involved throughout 
                 the entire process.
@@ -184,7 +184,7 @@ export default function AboutPage() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-blue-700 to-blue-800 text-white rounded-lg p-12 text-center">
-          <h2 className="font-montserrat text-3xl font-bold mb-4">Ready to Work Together?</h2>
+          <h2 className="font-montserrat text-3xl font-bold mb-4 text-gray-900">Ready to Work Together?</h2>
           <p className="text-xl mb-8">
             Let's discuss how Pisca can help you achieve your goals.
           </p>
