@@ -6,14 +6,25 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative -mt-16 bg-black text-white py-24 md:py-40 overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 opacity-70">
-          <img 
-            src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1920&h=1080&fit=crop" 
-            alt="Sports background"
+        {/* Background Video */}
+        <div className="absolute inset-0 opacity-60">
+          <video 
+            autoPlay 
+            muted 
+            loop 
+            playsInline
             className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/30 via-transparent to-gray-900/40"></div>
+          >
+            <source src="/bgvd.mp4" type="video/mp4" />
+            <source src="/bgvd2.mp4" type="video/mp4" />
+            {/* Fallback image if video doesn't load */}
+            <img 
+              src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1920&h=1080&fit=crop" 
+              alt="Sports background"
+              className="w-full h-full object-cover"
+            />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-black/20 to-gray-900/50"></div>
         </div>
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
