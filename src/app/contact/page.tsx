@@ -20,10 +20,19 @@ export default function ContactPage() {
     setIsSubmitting(true)
     setSubmitStatus(null)
 
-    // Simulate form submission (replace with actual email service later)
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000))
-      console.log('Form data:', data)
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to send message')
+      }
+
       setSubmitStatus('success')
       reset()
     } catch (error) {
