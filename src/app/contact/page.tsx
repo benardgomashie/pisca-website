@@ -90,7 +90,7 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-gray-600">[Your Phone Number]</p>
+                    <p className="text-gray-600">+1 (862) 872-0195</p>
                   </div>
                 </div>
 
