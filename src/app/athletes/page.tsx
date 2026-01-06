@@ -84,29 +84,29 @@ export default function AthletesPage() {
           <div className="max-w-7xl mx-auto">
             <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Why Partner With Pisca?</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-3 text-blue-700">Personalized Attention</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-3 text-blue-700 text-gray-900">Personalized Attention</h3>
                 <p className="text-gray-700">
                   You won't get lost in a roster of hundreds. We work closely with each athlete, 
                   providing the individual attention and customized strategies you deserve.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-3 text-blue-700">Hungry & Motivated</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-3 text-blue-700 text-gray-900">Hungry & Motivated</h3>
                 <p className="text-gray-700">
                   As a startup, we're driven to prove ourselves. Your success is our success, and 
                   we're committed to going the extra mile.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-3 text-blue-700">Modern Approach</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-3 text-blue-700 text-gray-900">Modern Approach</h3>
                 <p className="text-gray-700">
                   We understand today's digital landscape. From social media to personal branding, 
                   we know how to maximize your visibility in the modern market.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-3 text-blue-700">Transparent Partnership</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-3 text-blue-700 text-gray-900">Transparent Partnership</h3>
                 <p className="text-gray-700">
                   Clear communication, honest feedback, and collaborative decision-making. We believe 
                   in building trust through transparency.
@@ -151,12 +151,12 @@ export default function AthletesPage() {
               focused on:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
-              <div className="bg-white p-4 rounded">Football/Soccer</div>
-              <div className="bg-white p-4 rounded">Basketball</div>
-              <div className="bg-white p-4 rounded">Tennis</div>
-              <div className="bg-white p-4 rounded">Golf</div>
-              <div className="bg-white p-4 rounded">Athletics</div>
-              <div className="bg-white p-4 rounded">And More</div>
+              <div className="bg-white p-4 rounded font-semibold text-gray-900 text-gray-900">Football/Soccer</div>
+              <div className="bg-white p-4 rounded font-semibold text-gray-900 text-gray-900">Basketball</div>
+              <div className="bg-white p-4 rounded font-semibold text-gray-900 text-gray-900">Tennis</div>
+              <div className="bg-white p-4 rounded font-semibold text-gray-900 text-gray-900">Golf</div>
+              <div className="bg-white p-4 rounded font-semibold text-gray-900 text-gray-900">Athletics</div>
+              <div className="bg-white p-4 rounded font-semibold text-gray-900 text-gray-900">And More</div>
             </div>
           </div>
         </section>

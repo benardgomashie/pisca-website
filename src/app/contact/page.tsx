@@ -56,7 +56,7 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <div className="bg-white p-8 rounded-lg shadow-md mb-8">
+            <div className="bg-white p-8 rounded-lg shadow-md mb-8 text-gray-900">
               <h2 className="font-montserrat text-2xl font-bold mb-6">Get in Touch</h2>
               <p className="text-gray-600 mb-6">
                 Whether you're an athlete seeking representation, a brand exploring partnership 
@@ -105,14 +105,14 @@ export default function ContactPage() {
             </div>
 
             <div className="bg-blue-700 text-white p-6 rounded-lg">
-              <h3 className="font-semibold text-lg mb-2">Business Hours</h3>
+              <h3 className="font-semibold text-lg mb-2 text-gray-900">Business Hours</h3>
               <p>Monday - Friday</p>
               <p>9:00 AM - 6:00 PM (Your Timezone)</p>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white p-8 rounded-lg shadow-md">
+          <div className="bg-white p-8 rounded-lg shadow-md text-gray-900">
             <h2 className="font-montserrat text-2xl font-bold mb-6">Send Us a Message</h2>
             
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">

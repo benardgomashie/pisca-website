@@ -85,7 +85,7 @@ export default function EventsPage() {
           <div className="max-w-7xl mx-auto">
             <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Our Process</h2>
             <div className="grid md:grid-cols-4 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <div className="bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold mb-4">
                   1
                 </div>
@@ -95,7 +95,7 @@ export default function EventsPage() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <div className="bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold mb-4">
                   2
                 </div>
@@ -105,7 +105,7 @@ export default function EventsPage() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <div className="bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold mb-4">
                   3
                 </div>
@@ -115,7 +115,7 @@ export default function EventsPage() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <div className="bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold mb-4">
                   4
                 </div>
@@ -193,15 +193,15 @@ export default function EventsPage() {
             From intimate gatherings to large-scale tournaments, we tailor our services to your needs and budget.
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <div className="bg-white p-6 rounded-lg text-center">
+            <div className="bg-white p-6 rounded-lg text-center text-gray-900">
               <p className="font-bold text-3xl text-blue-700 mb-2">10-50</p>
               <p className="text-gray-600">Intimate Events</p>
             </div>
-            <div className="bg-white p-6 rounded-lg text-center">
+            <div className="bg-white p-6 rounded-lg text-center text-gray-900">
               <p className="font-bold text-3xl text-blue-700 mb-2">50-200</p>
               <p className="text-gray-600">Mid-Size Events</p>
             </div>
-            <div className="bg-white p-6 rounded-lg text-center">
+            <div className="bg-white p-6 rounded-lg text-center text-gray-900">
               <p className="font-bold text-3xl text-blue-700 mb-2">200+</p>
               <p className="text-gray-600">Large-Scale Events</p>
             </div>

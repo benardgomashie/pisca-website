@@ -113,29 +113,29 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto">
             <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">What Makes Us Different</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-2">Personalized Attention</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-2 text-gray-900">Personalized Attention</h3>
                 <p className="text-gray-600 text-sm">
                   We're small enough to know every client by name and dedicated enough to treat 
                   every project like our most important one.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-2">Modern Approach</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-2 text-gray-900">Modern Approach</h3>
                 <p className="text-gray-600 text-sm">
                   We leverage the latest digital tools, social media trends, and marketing strategies 
                   to maximize your visibility.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-2">Transparent Communication</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-2 text-gray-900">Transparent Communication</h3>
                 <p className="text-gray-600 text-sm">
                   No surprises, no jargon. We keep you informed every step of the way with clear, 
                   honest communication.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="font-semibold text-lg mb-2">Growth Mindset</h3>
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
+                <h3 className="font-semibold text-lg mb-2 text-gray-900">Growth Mindset</h3>
                 <p className="text-gray-600 text-sm">
                   We're growing, and we want to grow with you. Your success is our success, and 
                   we're invested in the journey.

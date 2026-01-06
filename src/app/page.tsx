@@ -227,7 +227,7 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group">
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group text-gray-900">
               <div className="flex gap-4">
                 <div className="bg-green-100 p-2 rounded-lg h-fit group-hover:scale-110 transition-transform">
                   <CheckCircle className="w-6 h-6 text-green-600" />
@@ -239,7 +239,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group">
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group text-gray-900">
               <div className="flex gap-4">
                 <div className="bg-green-100 p-2 rounded-lg h-fit group-hover:scale-110 transition-transform">
                   <CheckCircle className="w-6 h-6 text-green-600" />
@@ -251,7 +251,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group">
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group text-gray-900">
               <div className="flex gap-4">
                 <div className="bg-green-100 p-2 rounded-lg h-fit group-hover:scale-110 transition-transform">
                   <CheckCircle className="w-6 h-6 text-green-600" />
@@ -263,7 +263,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group">
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group text-gray-900">
               <div className="flex gap-4">
                 <div className="bg-green-100 p-2 rounded-lg h-fit group-hover:scale-110 transition-transform">
                   <CheckCircle className="w-6 h-6 text-green-600" />
@@ -275,7 +275,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group">
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group text-gray-900">
               <div className="flex gap-4">
                 <div className="bg-green-100 p-2 rounded-lg h-fit group-hover:scale-110 transition-transform">
                   <CheckCircle className="w-6 h-6 text-green-600" />
@@ -287,7 +287,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group">
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-elegant transition-all duration-300 border border-gray-100 hover:border-blue-200 group text-gray-900">
               <div className="flex gap-4">
                 <div className="bg-green-100 p-2 rounded-lg h-fit group-hover:scale-110 transition-transform">
                   <CheckCircle className="w-6 h-6 text-green-600" />

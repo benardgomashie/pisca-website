@@ -115,25 +115,25 @@ export default function ServicesPage() {
           <div className="max-w-7xl mx-auto">
             <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Why Choose Pisca?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-2">Personalized Approach</h3>
                 <p className="text-gray-600 text-sm">
                   Every client receives customized strategies tailored to their unique goals and circumstances.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-2">Transparent Communication</h3>
                 <p className="text-gray-600 text-sm">
                   We keep you informed every step of the way with clear, honest updates and feedback.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-2">Modern Expertise</h3>
                 <p className="text-gray-600 text-sm">
                   We leverage the latest tools, trends, and technologies to maximize your success.
                 </p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-2">Dedicated Support</h3>
                 <p className="text-gray-600 text-sm">
                   As a boutique agency, we provide the attention and responsiveness you deserve.

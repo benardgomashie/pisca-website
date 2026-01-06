@@ -103,7 +103,7 @@ export default function SportsMarketingPage() {
           <div className="max-w-7xl mx-auto">
             <h2 className="font-montserrat text-3xl font-bold mb-8 text-center text-gray-900">Our Marketing Approach</h2>
             <div className="grid md:grid-cols-4 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-center text-gray-900">
                 <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">
                   1
                 </div>
@@ -113,7 +113,7 @@ export default function SportsMarketingPage() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-center text-gray-900">
                 <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">
                   2
                 </div>
@@ -123,7 +123,7 @@ export default function SportsMarketingPage() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-center text-gray-900">
                 <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">
                   3
                 </div>
@@ -133,7 +133,7 @@ export default function SportsMarketingPage() {
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm text-center">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-center text-gray-900">
                 <div className="bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">
                   4
                 </div>
@@ -276,28 +276,28 @@ export default function SportsMarketingPage() {
             We help brands across various industries leverage sports marketing to reach their goals.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               Sports Apparel
             </div>
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               Nutrition & Fitness
             </div>
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               Technology
             </div>
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               Automotive
             </div>
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               Financial Services
             </div>
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               Consumer Goods
             </div>
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               Healthcare
             </div>
-            <div className="bg-white p-4 rounded-lg text-center font-semibold">
+            <div className="bg-white p-4 rounded-lg text-center font-semibold text-gray-900">
               And More
             </div>
           </div>

@@ -89,7 +89,7 @@ export default function EventManagementPage() {
               on your attendees and objectives.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-3 text-blue-700">Planning & Strategy</h3>
                 <ul className="space-y-1 text-gray-700 text-sm">
                   <li>• Event concept development</li>
@@ -99,7 +99,7 @@ export default function EventManagementPage() {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-3 text-blue-700">Logistics & Operations</h3>
                 <ul className="space-y-1 text-gray-700 text-sm">
                   <li>• Venue sourcing & negotiation</li>
@@ -109,7 +109,7 @@ export default function EventManagementPage() {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-3 text-blue-700">Staffing & Safety</h3>
                 <ul className="space-y-1 text-gray-700 text-sm">
                   <li>• Staff & volunteer management</li>
@@ -119,7 +119,7 @@ export default function EventManagementPage() {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-3 text-blue-700">Marketing & Promotion</h3>
                 <ul className="space-y-1 text-gray-700 text-sm">
                   <li>• Event branding & design</li>
@@ -129,7 +129,7 @@ export default function EventManagementPage() {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-3 text-blue-700">Content & Media</h3>
                 <ul className="space-y-1 text-gray-700 text-sm">
                   <li>• Photography & videography</li>
@@ -139,7 +139,7 @@ export default function EventManagementPage() {
                 </ul>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="bg-white p-6 rounded-lg shadow-sm text-gray-900">
                 <h3 className="font-bold mb-3 text-blue-700">Follow-Up & Reporting</h3>
                 <ul className="space-y-1 text-gray-700 text-sm">
                   <li>• Post-event surveys</li>
@@ -281,19 +281,19 @@ export default function EventManagementPage() {
             From intimate gatherings to large-scale tournaments, we tailor our services to your needs and budget.
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <div className="bg-white p-6 rounded-lg text-center">
+            <div className="bg-white p-6 rounded-lg text-center text-gray-900">
               <Target className="w-12 h-12 text-blue-700 mx-auto mb-3" />
               <p className="font-bold text-3xl text-blue-700 mb-2">10-50</p>
               <p className="text-gray-600 font-semibold">Intimate Events</p>
               <p className="text-gray-600 text-sm mt-2">Perfect for exclusive experiences and VIP gatherings</p>
             </div>
-            <div className="bg-white p-6 rounded-lg text-center">
+            <div className="bg-white p-6 rounded-lg text-center text-gray-900">
               <Users className="w-12 h-12 text-blue-700 mx-auto mb-3" />
               <p className="font-bold text-3xl text-blue-700 mb-2">50-200</p>
               <p className="text-gray-600 font-semibold">Mid-Size Events</p>
               <p className="text-gray-600 text-sm mt-2">Ideal for corporate tournaments and brand activations</p>
             </div>
-            <div className="bg-white p-6 rounded-lg text-center">
+            <div className="bg-white p-6 rounded-lg text-center text-gray-900">
               <TrendingUp className="w-12 h-12 text-blue-700 mx-auto mb-3" />
               <p className="font-bold text-3xl text-blue-700 mb-2">200+</p>
               <p className="text-gray-600 font-semibold">Large-Scale Events</p>
