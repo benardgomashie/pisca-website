@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Instagram, Twitter, Facebook, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
 
 export default function Footer() {
@@ -8,7 +9,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Column 1: About */}
           <div>
-            <h3 className="font-bold text-xl mb-4">PISCA</h3>
+            <div className="mb-4">
+              <Image 
+                src="/piscaLogoNullbg.png"
+                alt="Pisca Sports Logo"
+                width={100}
+                height={33}
+                className="h-8 w-auto object-contain brightness-0 invert"
+              />
+            </div>
             <p className="text-sm text-gray-300 mb-4 font-semibold">
               Unleashing Potential
             </p>
@@ -71,11 +80,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>[Your Phone Number]</span>
+                <span>+1 (862) 872-0195</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>[Your City, Country]</span>
+                <span>New York, USA</span>
               </li>
             </ul>
             <div className="mt-4 text-sm">

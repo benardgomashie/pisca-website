@@ -1,5 +1,6 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 
@@ -22,10 +23,15 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className={`font-bold text-2xl transition ${
-            isScrolled ? 'text-blue-700 hover:text-blue-800' : 'text-white hover:text-blue-200'
-          }`}>
-            PISCA
+          <Link href="/" className="transition flex items-center">
+            <Image 
+              src={isScrolled ? "/piscaLogoBW.jpeg" : "/piscaLogoNullbg.png"}
+              alt="Pisca Sports Logo"
+              width={120}
+              height={40}
+              className="h-10 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

@@ -19,6 +19,32 @@ export const metadata: Metadata = {
   title: "Pisca Sports Management & Agency | Unleashing Potential",
   description: "Professional athlete representation, world-class event management, and strategic sports marketing across Africa.",
   keywords: ["sports management", "athlete representation", "sports marketing", "Africa sports", "event management"],
+  openGraph: {
+    title: "Pisca Sports Management & Agency",
+    description: "Professional athlete representation, world-class event management, and strategic sports marketing across Africa.",
+    url: "https://www.piscasports.com",
+    siteName: "Pisca Sports",
+    images: [
+      {
+        url: "/piscaLogoBW.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Pisca Sports Management Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pisca Sports Management & Agency",
+    description: "Professional athlete representation, world-class event management, and strategic sports marketing across Africa.",
+    images: ["/piscaLogoBW.jpeg"],
+  },
+  icons: {
+    icon: "/piscaLogoNullbg.png",
+    apple: "/piscaLogoNullbg.png",
+  },
 };
 
 export default function RootLayout({
