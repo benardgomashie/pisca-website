@@ -13,7 +13,7 @@ export default function ServicesPage() {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 pt-16">
           <h1 className="font-montserrat text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
           <p className="text-xl">Comprehensive Sports Management Solutions</p>
         </div>

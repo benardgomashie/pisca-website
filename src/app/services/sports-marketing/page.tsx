@@ -13,7 +13,7 @@ export default function SportsMarketingPage() {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-16">
           <Link href="/services" className="inline-flex items-center gap-2 text-white/90 hover:text-white mb-6">
             <ArrowLeft className="w-4 h-4" />
             Back to Services
