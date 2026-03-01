@@ -7,7 +7,7 @@ export default function EventsPage() {
       <div className="relative -mt-16 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=1920&h=600&fit=crop" 
+            src="/media/IMG_9489.jpg" 
             alt="Sports event"
             className="w-full h-full object-cover"
           />
@@ -205,6 +205,22 @@ export default function EventsPage() {
               <p className="font-bold text-3xl text-blue-700 mb-2">200+</p>
               <p className="text-gray-600">Large-Scale Events</p>
             </div>
+          </div>
+        </section>
+
+        {/* Gallery Section */}
+        <section className="mb-16">
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-center text-gray-900">Event Highlights</h2>
+          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+            Real moments from sports activations, gatherings, and community engagement.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <img src="/media/IMG_9476.jpg" alt="Event highlight 1" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9477.jpg" alt="Event highlight 2" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9479.jpg" alt="Event highlight 3" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9482.jpg" alt="Event highlight 4" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9496.jpg" alt="Event highlight 5" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9527.jpg" alt="Event highlight 6" className="w-full h-56 object-cover rounded-lg" />
           </div>
         </section>
 

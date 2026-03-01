@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className="relative -mt-16 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1920&h=600&fit=crop" 
+            src="/media/IMG_9519.jpg" 
             alt="Team sports"
             className="w-full h-full object-cover"
           />
@@ -179,6 +179,22 @@ export default function AboutPage() {
                 the entire process.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Gallery Section */}
+        <section className="mb-16">
+          <h2 className="font-montserrat text-3xl font-bold mb-6 text-center text-gray-900">Behind The Scenes</h2>
+          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+            A look at the people, preparation, and moments shaping Pisca&apos;s journey.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <img src="/media/IMG_9491.jpg" alt="Pisca team moment 1" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9501.jpg" alt="Pisca team moment 2" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9513.jpg" alt="Pisca team moment 3" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9514.jpg" alt="Pisca team moment 4" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9522.jpg" alt="Pisca team moment 5" className="w-full h-56 object-cover rounded-lg" />
+            <img src="/media/IMG_9537.jpg" alt="Pisca team moment 6" className="w-full h-56 object-cover rounded-lg" />
           </div>
         </section>
 

@@ -19,8 +19,8 @@ export default function Home() {
             <source src="/bgvd2.mp4" type="video/mp4" />
             {/* Fallback image if video doesn't load */}
             <img 
-              src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1920&h=1080&fit=crop" 
-              alt="Sports background"
+              src="/media/IMG_0405.jpg" 
+              alt="Pisca sports background"
               className="w-full h-full object-cover"
             />
           </video>
@@ -102,10 +102,10 @@ export default function Home() {
             </div>
             
             <div className="relative bg-gradient-to-br from-blue-600 to-blue-800 p-8 rounded-2xl shadow-elegant text-white overflow-hidden">
-              <div className="absolute inset-0 opacity-10">
+              <div className="absolute inset-0 opacity-20">
                 <img 
-                  src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&h=600&fit=crop" 
-                  alt="Trophy"
+                  src="/media/IMG_0343.jpg" 
+                  alt="Pisca mission"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -145,7 +145,7 @@ export default function Home() {
             {/* Service 1 */}
             <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 opacity-30 group-hover:opacity-40 transition-opacity">
-                <img src="https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
+                <img src="/media/IMG_0556.jpg" alt="" className="w-full h-full object-cover" />
               </div>
               <div className="relative z-10">
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
@@ -171,7 +171,7 @@ export default function Home() {
             {/* Service 2 */}
             <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 opacity-30 group-hover:opacity-40 transition-opacity">
-                <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
+                <img src="/media/IMG_0569.jpg" alt="" className="w-full h-full object-cover" />
               </div>
               <div className="relative z-10">
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">
@@ -197,7 +197,7 @@ export default function Home() {
             {/* Service 3 */}
             <div className="group relative bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-elegant hover:shadow-elegant-lg hover:-translate-y-2 transition-all duration-300 border border-gray-100 overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 opacity-30 group-hover:opacity-40 transition-opacity">
-                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=400&fit=crop" alt="" className="w-full h-full object-cover" />
+                <img src="/media/IMG_0575.jpg" alt="" className="w-full h-full object-cover" />
               </div>
               <div className="relative z-10">
               <div className="bg-gradient-to-br from-blue-600 to-blue-700 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg">

@@ -7,7 +7,7 @@ export default function AthletesPage() {
       <div className="relative -mt-16 bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white py-20 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <img 
-            src="https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?w=1920&h=600&fit=crop" 
+            src="/media/IMG_9473.jpg" 
             alt="Athletes"
             className="w-full h-full object-cover"
           />
