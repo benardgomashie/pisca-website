@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Instagram, Twitter, Facebook, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
+import { Instagram, Twitter, Facebook, Linkedin, Mail, Phone, MapPin, Music } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -29,6 +29,10 @@ export default function Footer() {
               <a href="https://instagram.com/piscasports" target="_blank" rel="noopener noreferrer" 
                  className="hover:text-green-400 transition" aria-label="Instagram">
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a href="https://www.tiktok.com/t/ZP8ysJrtw" target="_blank" rel="noopener noreferrer"
+                 className="hover:text-green-400 transition" aria-label="TikTok">
+                <Music className="w-5 h-5" />
               </a>
               <a href="https://twitter.com/piscasports" target="_blank" rel="noopener noreferrer"
                  className="hover:text-green-400 transition" aria-label="Twitter">
